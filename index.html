@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home - Nicholas The Designer</title>
+<link type="text/css" rel="stylesheet" href="css/reset.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+
+
+<script>
+jQuery(document).ready(function($) {
+    $("#gallery li img").hover(function(){
+        $('#main-img').attr('src',$(this).attr('src').replace('thumb/', '')).parent().attr('href',$(this).parent().attr('href'));
+    });
+});
+</script>
+
+
+</head>
+
+
+<body>
+
+<header>
+		<div id="logo"><img src="images/branding-header.jpg"></div>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        
+              </ul><!--nav ends-->
+          </header><!--header ends-->
+           </div>
+ 
+ 
+    <div id="gallery">
+          <img src="images/gallery1/img_01.jpg" alt="" id="main-img">
+         <div id="gallery_thumbs">
+          <ul>
+          <li><img src="images/gallery1/thumb/img_01.jpg" class="temp" alt=""></li>
+          <li><img src="images/gallery1/thumb/img_02.jpg" class="temp" alt=""></li>
+          <li><img src="images/gallery1/thumb/img_03.jpg" class="temp" alt=""></li>
+          <li><img src="images/gallery1/thumb/img_04.jpg" class="temp" alt=""></li>
+          <li><img src="images/gallery1/thumb/img_05.jpg" class="temp" alt=""></li>
+          </ul>
+        </div>
+	</div>
+
+    
+<footer>
+    <h4>Copyright&copy; 2014 Nicholas Prodromou</h4>
+	</footer><!--footer ends-->
+
+</body>
+</html>
+     
+       
+     
+

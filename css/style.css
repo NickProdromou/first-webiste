@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#logo{
+		text-align:center;
+		padding:10px;
+}
+
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+	text-align:center;
+	padding:10px;
+}
+.nav li{
+    display:inline;
+	padding:10px;
+}
+	
+.nav a{
+    display:inline-block;
+    padding:5px;
+	font-family:"Courier New";
+	color:#000000;
+	text-decoration:none;
+	font-size:20px;
+	padding:10px;
+	word-spacing:40px;
+}
+
+header ul.nav a:hover{
+	color:#D7D7D7;
+		
+}
+
+#gallery ul{
+	margin:auto;
+	width:550px;
+	height:103px;
+}
+
+#gallery ul li {
+	display:inline;
+	margin:auto;
+	margin-right:6px;
+}
+
+#gallery {
+	width: 660px;
+	margin:auto;
+}
+
+#folio #gallery_thumbs p{
+	margin:20px;
+}
+
+
+#gallery #main-img {
+	background:url(../images/bg_img.jpg) no-repeat 0 0;
+	padding: 26px;
+}
+
+#folio #gallery_thumbs img{
+	margin:auto;
+	
+}
+
+#folio{
+	padding:10px;
+	text-align:center;
+
+}
+
+
+#folio .caption{
+	line-height:5em;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-transform:capitalize;
+	text-align:center;
+	font-style:bold;
+	font-size:14px;
+	
+}
+
+#worklist{
+	
+	margin-top:20px;
+	text-align:center;
+}
+
+ul.worknav{
+	margin:0;
+	padding:10px;
+}
+
+.worknav li{
+	margin-top:10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:18px;
+	font-style:oblique;
+}
+
+.worknav a{
+	text-decoration:none;
+	color:#3A3A3A;
+}
+
+ul.worknav a:hover{
+	color:#D7D7D7;
+}
+
+
+
+#content{
+	height:750px;
+	width:600px;
+	margin:auto;
+
+}
+
+#content .image{
+	width:300px;
+	height:475px;
+	float:left;
+	margin:0 8px;
+}
+
+#content .text{
+	text-align:center;
+	color:#3A3A3A;
+	width:600px;
+	min-height:300px;
+	float:right;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:14px;
+}
+
+#content .text h3{	
+	text-align:center;
+	font-family:"Courier New";
+	color:#3A3A3A;
+	font-size:1.2em;
+	font-weight:300;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+
+#contact {
+	line-height:1.5em;
+	color:#3A3A3A;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	text-align:center;
+	padding-top:100px;
+}
+
+#contact #email {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:18px;
+	font-weight:500;
+}
+
+#contact #email a {
+	text-decoration:none;
+	color:#3A3A3A;
+}
+
+
+footer h4{ 	
+	clear:none;
+	margin-bottom:20px;
+	margin-top:10px;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:10px;
+	width:100%;
+	text-transform:capitalize;
+}
+
+	
